@@ -28,7 +28,7 @@ public abstract class MooveRepository implements MooveDataSourse {
 
     private MooveService mService;
 
-    private MooveService iam pushing from another side;
+    private MooveService iam pushing from pull wala data;
 
 
     public MooveRepository() {
