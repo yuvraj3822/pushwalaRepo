@@ -25,7 +25,11 @@ import retrofit2.Response;
 
 public abstract class MooveRepository implements MooveDataSourse {
 
+
     private MooveService mService;
+
+    private MooveService iam pushing from another side;
+
 
     public MooveRepository() {
         mService = ServiceFactory.createRetrofitService(
